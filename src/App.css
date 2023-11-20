@@ -1,38 +1,86 @@
+body {
+  position: relative;
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.todo-button {
+  margin-left: 10px;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 15%;
+  border: none;
 }
-
-.App-link {
-  color: #61dafb;
+.todo-button:hover {
+  cursor: pointer;
+  border: 1px solid black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todo-container {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+  width: 75vw;
+  margin: auto;
 }
+#addingName {
+  width: 50vw;
+}
+.delete-button {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 15%;
+  border: none;
+}
+.delete-button:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+.complete-button {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 15%;
+  border: none;
+}
+.complete-button:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+.undo-button {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 15%;
+  border: none;
+}
+.undo-button:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+.todoList {
+  width: 75vw;
+  margin: auto;
+  display: flex-end;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: rgb(250, 250, 250);
+}
+.t
